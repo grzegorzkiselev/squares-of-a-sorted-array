@@ -18,13 +18,13 @@ var sortedSquares = (nums) => {
 	let sortPowArr = [];
 	
 	while (idx > -1) {
-  	if (Math.abs(nums[start]) > Math.abs(nums[end])) {
-    	sortPowArr[idx--] = nums[start] * nums[start];
-    	start++;
-  	} else {
-    	sortPowArr[idx--] = nums[end] * nums[end];
-    	end--;
-  	}
+  		if (Math.abs(nums[start]) > Math.abs(nums[end])) {
+    			sortPowArr[idx--] = nums[start] * nums[start];
+    			start++;
+  		} else {
+    			sortPowArr[idx--] = nums[end] * nums[end];
+    			end--;
+  		}
 	}
 	
 	return sortPowArr;
