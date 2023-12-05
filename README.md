@@ -4,7 +4,7 @@
 
 ## Начальный код
 
-Я использовал самый залайканный код из [этого](https://leetcode.com/problems/squares-of-a-sorted-array/solutions/2672974/js-two-pointers-85-with-explanation/) решения, немного поправив наименования:
+Я использовал код из [этого](https://leetcode.com/problems/squares-of-a-sorted-array/solutions/2672974/js-two-pointers-85-with-explanation/) решения, немного поправив наименования:
 
 ```js
 var nums = Array
