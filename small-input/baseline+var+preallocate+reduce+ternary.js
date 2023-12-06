@@ -7,8 +7,8 @@ var sortedSquares = (nums) => {
     var leftPointer = 0;
     var rightPointer = size - 1;
 
-    return nums.reduce((result, number, index) => {
-        result[size - 1 - index] = Math.abs(nums[leftPointer]) > Math.abs(nums[rightPointer])
+    return nums.reduceRight((result, number, index) => {
+        result[index] = Math.abs(nums[leftPointer]) > Math.abs(nums[rightPointer])
         ? nums[leftPointer] * nums[leftPointer++]
         : nums[rightPointer] * nums[rightPointer--]
         return result;
